@@ -142,7 +142,7 @@ received_data_display = ctk.CTkTextbox(app, width=600, height=300)
 received_data_display.grid(row=4, column=0, columnspan=2, pady=0, padx=0, sticky="nsew")
 
 # デバッグ用printfエリア
-printf_label = ctk.CTkLabel(app, text="Debug message")
+printf_label = ctk.CTkLabel(app, text="System message")
 printf_label.grid(row=3, column=2, padx=10, pady=10, sticky="w")
 printf = ctk.CTkTextbox(app, width=300, height=300)
 printf.grid(row=4, column=2, padx=2,pady=0, sticky="nsew")
